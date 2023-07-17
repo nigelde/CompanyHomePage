@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: "Nunito-sans", Helvetica, sans-serif;
+  }
+  
+  
+  h3 {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+  
+  .header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #fff8dc;
+  }
+  
+  .logo {
+    margin-left: 2rem;
+    margin-right: auto;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    padding: 1rem;
+  }
+  
+  .nav-item a {
+    color: black;
+    transition: font-size 0.5s linear;
+  }
+  
+  .nav-item a:visited {
+    color: purple;
+  }
+  
+  .nav-item a:hover {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .main {
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-image: url("https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main h1 {
+    padding: 15rem 0 2rem 2rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+  }
+  
+  .main h4 {
+    padding: 0 0 15rem 2rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #services {
+    background-color: #fff8dc;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    background-color: #fff8dc;
+  }
+  
+  .box {
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .box-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .caption {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  #meet {
+    background-color: #deb887;
+  }
+  
+  .card-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: #deb887;
+    padding-bottom: 4rem;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+  }
+  
+  .card {
+    width: 200px;
+    max-height: 400px;
+    margin: 1rem;
+    text-align: center;
+    background-color: #fff8dc;
+    border-radius: 10%;
+  }
+  
+  .testimonials {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid black;
+  }
+  
+  .testimonials p {
+    padding: 0 2rem;
+  }
+  
+  .footer {
+    display: flex;
+    height: 4rem;
+    padding-left: 2rem;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+  }
