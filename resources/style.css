@@ -11,6 +11,7 @@
     font-size: 1.5rem;
     padding-left: 2rem;
     padding-top: 3rem;
+    padding-bottom: 2rem;
   }
   
   .header {
@@ -84,7 +85,6 @@
     width: 100%;
     height: auto;
     justify-content: center;
-    padding-top: 1rem;
     flex-wrap: wrap;
     padding-bottom: 4rem;
     background-color: #fff8dc;
@@ -117,7 +117,6 @@
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 2rem;
     justify-content: center;
     background-color: #deb887;
     padding-bottom: 4rem;
@@ -148,12 +147,22 @@
   .testimonials p {
     padding: 0 2rem;
   }
+
+  .contact {
+    padding-bottom: 4rem;
+    background-color: #cdaa7d;
+  }
+
+  .details {
+    padding-left: 2rem;
+  }
   
   .footer {
     display: flex;
     height: 4rem;
     padding-left: 2rem;
     align-items: center;
+    border-top: 1px solid black;
   }
   
   .footer-text {
