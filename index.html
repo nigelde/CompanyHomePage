@@ -6,30 +6,37 @@
     <title>Flexbox Company Home Page</title>
     <link href="resources/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Nunito+Sans&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/969318b1c9.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
   </head>
 
   <body>
 
     <header class="header">
-      <img class="logo" src="https://freesvg.org/img/Anonymous_Flag_of_UK_Kernow_-_Cornwall.png" style="width:3.5rem;height:2.5rem;">
+      <img class="logo" src="https://freesvg.org/img/Anonymous_Flag_of_UK_Kernow_-_Cornwall.png" alt="Cornish flag">
       <nav>
         <ul class="nav-items">
           <li class="nav-item"><a href="#">About</a></li>
           <li class="nav-item"><a href="#">Services</a></li>
-          <li class="nav-item"><a href="#">Contact Us</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
         </ul>
+        <div class="nav-items-mob">
+          <a href="#" title="About Us" class="nav-item-mob"><i class="fa-solid fa-info"></i></a>
+          <a href="#" title="Services" class="nav-item-mob"><i class="fa-solid fa-house-chimney-window"></i></a>
+          <a href="#" title="Contact Us" class="nav-item-mob"><i class="fa-solid fa-phone"></i></a>
+        </div>
       </nav>
     </header>
 
     <main>
       <section class="main">
-        
+        <img src="https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Workers on a scaffold at sunset">
+        <div class="main-heading">
         <h1>Kernow Construction</h1>
-        <h4>Cornwall's Number One Provider of Quality New-Builds and Renovations</h4>
+        </div>
       </section>
 
       <section>
@@ -130,7 +137,8 @@
             <p>Cornwall</p>
             <p>TR15 5XX</p>
         </div>
-            <h3>Call Us For a Free No-Obligation Estimate:</h3>
+            <h3 class="call-us">Call Us For a Free No-Obligation Estimate:</h3>
+            <h3 class="call-us-mob">Call Us</h3>
         <div class="details">
             <p>01209 218776</p>
             <p>07714 866539</p>
